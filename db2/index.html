@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+    <form id="form">
+    <div>
+        <label >First Name</label><input type="text" id="fname" placeholder="Enter first name" required> 
+        <p id="fname-error">Please enter a valid first name.</p>
+    </div>
+    <div>
+        <label >Last Name</label><input type="text" id="lname" placeholder="Enter last name" required> 
+        <p id="lname-error">Please enter a valid last name.</p>
+    </div>
+    <div>
+        <label >Age</label><input type="text" id="age" placeholder="Enter age" required>
+        <p id="age-error">Please enter valid age.</p>
+    </div>
+    <div>
+        <label >Phone Number</label><input type="text" id="pno" placeholder="Enter phone number" required>
+        <p id="pno-error">Please enter valid phone number.</p>
+    </div>
+    <div>
+        <label >Email</label><input type="text" id="email"  placeholder="Enter email" required>
+        <p id="email-error">Please enter valid email address.</p>
+    </div>
+    <div>
+        <label >Password</label><input type="text" id="password" placeholder="Enter password" required>
+        <p id="password-error">password must contain atleast one uppercase, one lowercase, one special character and one digit with min 8 and max 16 characters</p>
+    </div>
+    <button type="button" onclick="addEmployee()" class="add" id="submit">Submit</button>
+    <p id="submit-error">Please fill all the fields.</p>
+    <button type="button" onclick="updateEmployee()" id="data" class="update">Update</button> 
+    </form>
+    
+        <table id="table" ></table>
+        <script src="./script.js"></script>
+    </div>
+
+</body>
+</html>

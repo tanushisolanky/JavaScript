@@ -1,0 +1,70 @@
+
+*{
+    font-size: large;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(171, 207, 220);
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+::placeholder{
+    color: grey;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    margin: 0 10px;
+    font-size: larger;
+}
+input{
+    background-color: beige;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px ;
+}
+p{
+    display: none;
+    color: red;
+}
+.btnedit{
+    background-color: green;
+    color: white;
+    border: green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btndel{
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.add, .update{
+    background-color:rgb(44, 130, 180);
+    color: white;
+    border: rgb(44, 130, 180);
+    border-radius: 10px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.table{
+    border-radius: 5px;
+    align-items: center;
+    margin: 20px;
+    background-color: beige;
+}
+.td{
+    height: 50px;
+    border-radius: 5px;
+}
+.thRow{
+    background-color:rgb(44, 130, 180);
+}
